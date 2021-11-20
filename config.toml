@@ -1,7 +1,8 @@
-baseurl = "/"
+baseurl = "https://jvycee.on.fleek.co/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+relativeUrls = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -42,7 +43,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "jvycee.eth"
-      logoHomeLink = "/"
+      logoHomeLink = "https://jvycee.on.fleek.co/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
